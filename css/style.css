@@ -1,0 +1,104 @@
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: 'Catamaran', sans-serif;
+
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-caja:#161616;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+.pad{
+	padding: 10% 0;
+}
+
+.card-body{
+	background-color: var(--color-caja);
+}
+.cuadro-negro {
+	background-color: var(--color-caja);
+	color: #ffffff;
+    padding: 30px;
+}
+
+#hero-slide h2{
+	font-size: 40px;
+	font-weight: 600;
+}
+
+#intro hr{
+	width: 20px;
+}
+#intro{
+	color: cornsilk;
+}
+
+#cta{
+	background-image: url("../img/bg-parallax.png");
+	background-size: cover;
+	background-position: top center;
+	background-color: #ec3642;
+	height: 60vh;
+}
+#cta h2{
+ color: #ffffff;
+}
+
+#cta h3{
+	color: #ffffff;
+}
+
+#products h4{
+	color: #ffffff;
+}
+
+#products p{
+	color: #ffffff;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
